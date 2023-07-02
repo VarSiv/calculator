@@ -1,0 +1,9 @@
+main tutorials used
+https://www.youtube.com/watch?v=j59qQ7YWLxw
+https://freshman.tech/css-grid-calculator/
+grid from yt vid wasn't working at all, the blog was super useful for the css. 
+i modified css from the blog to fit the style i was going for
+fuck css
+i hate i fr fr
+cant wait to learn tailwind or some shit 
+i swear im not that awful at design/coding this shit just sucks
