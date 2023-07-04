@@ -15,6 +15,7 @@ html {
 
 
 .calculator {
+  
   margin: 80px auto;
   align-items: center;
   width: 260px;
@@ -50,6 +51,7 @@ button {
   font-size: 2rem;
   border: 1px solid white;
   outline: none;
+  color: #fff;
   background-color: rgba(143, 108, 216, 0.6);
 
 }
