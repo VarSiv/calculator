@@ -16,3 +16,9 @@ regretting that decision, trying to stay strong
 THAT EUPHORIA WHEN IT WORKS
 i think im a masochist
 WHY IS SWITCH CASE USELESS UNLESS YOU PUT BREAK
+
+//real talk
+the chrome dev tools was the most helpful tool for debugging
+i dont get js, but ill just pretend its python and fake it till i make it
+this seems fun (i will take this back later 100%)
+time to actually build something of my own instead of plagiarizing
