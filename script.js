@@ -2,24 +2,27 @@
 
 class Calculator{
   constructor (previousOperandTextElement, currentOperandTextElement){
-    this.previousOperandTextElement = previousOperandTextElement
-    this.currentOperandTextElement = currentOperandTextElement
+    this.previousText = previousOperandTextElement
+    this.currentText = currentOperandTextElement
     this.clear()
   }
 
   clear() {
-    this.currentOperand = ''
-    this.previousOperand = ''
+    this.currentData = ''
+    this.previousData = ''
     this.operation = undefined
   }
   appendNumber(number) {
-    if (number === '.' && this.currentOperand.includes('.')) return
-    this.currentOperand = this.currentOperand.toString() + number.toString()
+    if (number === '.' && this.currentData.includes('.')) return
+    this.currentData = this.currentData.toString() + number.toString()
 
   }
   updateDisplay(){
-    console.log(this.currentOperand)
-    this.currentOperandTextElement.innerHTML= this.currentOperand
+    this.currentText.innerHTML= this.currentData
+  }
+  deleteNumber(){
+    console.log(this.currentText.innerText.length)
+    this.currentData=this.currentText.slice(this.currentText.innerText.length)
   }
 }
 
@@ -37,5 +40,9 @@ numberButtons.forEach(button => {
     calculator.appendNumber(button.innerText)
     calculator.updateDisplay()
   })
+})
+deleteButton.addEventListener('click', () => {
+  calculator.deleteNumber()
+  calculator.updateDisplay()
 })
   
