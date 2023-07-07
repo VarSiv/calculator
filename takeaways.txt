@@ -4,6 +4,15 @@ https://freshman.tech/css-grid-calculator/
 grid from yt vid wasn't working at all, the blog was super useful for the css. 
 i modified css from the blog to fit the style i was going for
 fuck css
-i hate i fr fr
+i hate it fr fr
 cant wait to learn tailwind or some shit 
 i swear im not that awful at design/coding this shit just sucks
+javascript will do whatever to avoid errors
+even if it means returning undefined or null or whatever after you make a typo or forget ()
+and it will then completely screw you over
+dumb system ngl
+after figuring out how to connect the javascript im trying to freestyle the functions without copy pastin
+regretting that decision, trying to stay strong
+THAT EUPHORIA WHEN IT WORKS
+i think im a masochist
+WHY IS SWITCH CASE USELESS UNLESS YOU PUT BREAK
